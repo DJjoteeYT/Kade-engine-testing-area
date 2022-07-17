@@ -50,8 +50,6 @@ class MainMenuState extends MusicBeatState
 
 	override function create()
 	{
-	  Paths.clearStoredMemory();
-		Paths.clearUnusedMemory();
 		#if windows
 		// Updating Discord Rich Presence
 		DiscordClient.changePresence("In the Menus", null);
@@ -173,7 +171,7 @@ class MainMenuState extends MusicBeatState
 			{
 				if (optionShit[curSelected] == 'donate')
 				{
-					fancyOpenURL("https://www.kickstarter.com/projects/funkin/friday-night-funkin-the-full-ass-game");
+					fancyOpenURL("https://gamejolt.com/games/fridayningtFGGGamesINU/590353");
 				}
 				else
 				{

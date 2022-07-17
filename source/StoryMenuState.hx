@@ -25,11 +25,11 @@ class StoryMenuState extends MusicBeatState
 
 	var weekData:Array<Dynamic> = [
 		['Tutorial'],
-		['Bopeebo', 'Fresh', 'Dad Battle'],
+		['Bopeebo', 'Fresh', 'knife-revenge'],
 		['Spookeez', 'South', "Monster"],
-		['Pico', 'Philly Nice', "Blammed"],
-		['Satin Panties', "High", "Milf"],
-		['Cocoa', 'Eggnog', 'Winter Horrorland'],
+		['Pico', 'angry-rabitt', "Blammed"],
+		['magic', "High", "gloss"],
+		['Cocoa', 'Eggnog', 'faz-dimension'],
 		['Senpai', 'Roses', 'Thorns']
 	];
 	var curDifficulty:Int = 1;
@@ -48,11 +48,11 @@ class StoryMenuState extends MusicBeatState
 
 	var weekNames:Array<String> = [
 		"",
-		"Daddy Dearest",
-		"Spooky Month",
-		"PICO",
-		"MOMMY MUST MURDER",
-		"RED SNOW",
+		"afton",
+		"glossy and crazzy freddy",
+		"rogelio",
+		"glossy puppet",
+		"afton y rrogelioo",
 		"Hating Simulator ft. Moawling"
 	];
 
@@ -74,8 +74,6 @@ class StoryMenuState extends MusicBeatState
 
 	override function create()
 	{
-	  Paths.clearStoredMemory();
-		Paths.clearUnusedMemory();
 		#if windows
 		// Updating Discord Rich Presence
 		DiscordClient.changePresence("In the Story Mode Menu", null);
